@@ -168,9 +168,9 @@ static void led_tester_setting_led_pin_change(VariableItem* item) {
 
 // Settings for configuring how many LEDs to enable.
 static const char* setting_led_count_config_label = "LED Count";
-static uint16_t setting_led_count_values[] = {1, 2, 3, 4, 5, 6, 7, 8, 16, 32, 64, 128, 256, 512};
+static uint16_t setting_led_count_values[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 20, 24, 30, 32, 64, 128, 256, 512};
 static char* setting_led_count_names[] =
-    {"1", "2", "3", "4", "5", "6", "7", "8", "16", "32", "64", "128", "256", "512"};
+    {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "16", "20", "24", "30", "32", "64", "128", "256", "512"};
 static uint8_t setting_led_count_default_index = 3; // 4 LEDs
 static void led_tester_setting_led_count_change(VariableItem* item) {
     LedTesterApp* app = variable_item_get_context(item);
